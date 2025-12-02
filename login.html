@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function validate(form){
+            var a1=form.Username.value;
+            var a2=form.Password.value;
+            if(a1==a2){
+                alert("login successful");
+                localStorage.setItem("loginUser",a1);
+        
+                return true;
+            }
+            else{
+                alert("Login failed! Please try again.");
+                return false;
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <form name="form">
+    <center>
+        <h1>Log In Page</h1><br><br>
+        Username:<input type="text" name="Username"><br><br>
+        Password:<input type="password" name="Password"><br><br>
+       <input type="submit" onClick="return validate(this.form)">
+        
+    </center>
+    </form>
+</body>
+</html>

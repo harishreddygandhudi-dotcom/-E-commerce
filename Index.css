@@ -1,0 +1,80 @@
+body{
+  background-color: rgb(128, 216, 234);
+  font-family: Arial, sans-serif;
+
+}
+header{
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    padding: 5px;
+    background-color:transparent
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+
+
+}
+section{
+    padding: 50px;
+    
+
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+.main{
+    text-align: center;
+}
+.highlights{
+    text-align: center;
+    padding-top: 5%;
+    background-color: rgba(255, 166, 0, 0.781);
+    margin: auto;
+    width: 50%;
+    border-radius: 5%;
+    padding-bottom: 5%;
+}
+.highlights h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+.highlights ul li{
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+#user-display {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: bold;
+}

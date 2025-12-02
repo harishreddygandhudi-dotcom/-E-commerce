@@ -1,0 +1,87 @@
+body{
+  background-color: rgb(128, 216, 234);
+  font-family: Arial, sans-serif;
+
+}
+header{
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.Laptops{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+
+}
+.div1{
+    background-color: thistle;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+    
+}
+.div2{
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.div3{
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+footer{
+    padding: 5px;
+    background-color:transparent
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+
+
+}
+section{
+    padding: 50px;
+    
+
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+.div3{
+    position:absolute;
+    right:20px;
+    top:20px;
+    font-weight:bold;
+}

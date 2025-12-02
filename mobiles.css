@@ -1,0 +1,64 @@
+body{
+  background-color: rgb(128, 216, 234);
+  font-family: Arial, sans-serif;
+}
+
+.header1{
+    background-color: orange;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Mobiles{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+
+}
+.div1{
+    background-color: thistle;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+    
+}
+.div2{
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.div3{
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+    
+}
+.nav2{
+    justify-content: flex-end;
+}
+.cat{
+    margin-top: 20px;
+    justify-content: flex-end;
+    
+}
